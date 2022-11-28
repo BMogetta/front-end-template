@@ -18,6 +18,12 @@ $ pnpm dev
 - [Prettier plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Vitest plugin](https://marketplace.visualstudio.com/items?itemName=ZixuanChen.vitest-explorer)
 
+## Steps in Vscode
+
+1. Install and enable Eslint and Prettier extension for vs code.
+2. Install packages.
+3. Enable formatOnSave of vs code
+
 ## Basic scripts
 
 ```bash
