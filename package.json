@@ -22,7 +22,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "6.4.2",
-    "i18next": "22.0.6",  
+    "i18next": "22.0.6",
     "react-i18next": "12.0.0",
     "i18next-browser-languagedetector": "7.0.1"
   },
@@ -67,8 +67,9 @@
   },
   "lint-staged": {
     "*.{js, jsx, ts, tsx, json, yml, yaml,css, md, html}": [
-      "lint",
-      "git add"
+      "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
+      "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore",
+      "git add --patch"
     ]
   },
   "license": "MIT",
