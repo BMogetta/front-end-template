@@ -2,8 +2,9 @@
 
 <!-- https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge -->
 
-[![Test&Build](https://github.com/BMogetta/front-end-template/actions/workflows/test-and-build/badge.svg)][Test&Build]
-[![License: MIT][license-badge]][license]
+[![Test&Build](https://github.com/BMogetta/front-end-template/workflows/test-and-build.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions/Test&Build)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Test&Build](https://github.com/BMogetta/front-end-template/workflows/test-and-build.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions)
 
 ## Build Setup
 
