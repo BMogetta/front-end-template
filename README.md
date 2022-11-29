@@ -1,5 +1,10 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/BMogetta/front-end-template)
 
+<!-- https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge -->
+
+[![Test&Build](https://github.com/BMogetta/front-end-template/actions/workflows/test-and-build/badge.svg)][Test&Build]
+[![License: MIT][license-badge]][license]
+
 ## Build Setup
 
 ```bash
