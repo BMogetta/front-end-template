@@ -1,0 +1,7 @@
+#https://www.gitpod.io/docs/introduction/getting-started
+tasks:
+  - init: npm install -g pnpm & pnpm install
+    command: npm run dev
+ports:
+  - port: 3000
+    onOpen: open-preview
