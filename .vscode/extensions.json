@@ -1,3 +1,8 @@
 {
-  "recommendations": ["esbenp.prettier-vscode", "wayou.vscode-todo-highlight", "Gruntfuggly.todo-tree", "oderwat.indent-rainbow"]
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "wayou.vscode-todo-highlight",
+    "Gruntfuggly.todo-tree",
+    "oderwat.indent-rainbow"
+  ]
 }

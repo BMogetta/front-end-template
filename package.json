@@ -1,7 +1,8 @@
 {
   "name": "front-end-template",
   "version": "1.0.0",
-  "description": "Using pnpm-ts-vite-vitest-eslint-prettier-amplify",
+  "author": "Bruno Mogetta",
+  "description": "Using pnpm-ts-vite-vitest-eslint-prettier-husky-amplify",
   "type": "module",
   "repository": {
     "type": "git",
@@ -16,12 +17,16 @@
     "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore",
     "lint:format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
     "lint": "pnpm lint:format && pnpm lint:fix ",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "6.4.2"
+    "react-router-dom": "6.4.2",
+    "i18next": "22.0.6",
+    "react-i18next": "12.0.0",
+    "i18next-browser-languagedetector": "7.0.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -49,14 +54,14 @@
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-testing-library": "^5.9.1",
     "jsdom": "^20.0.2",
-    "pre-commit": "^1.2.2",
     "prettier": "^2.7.1",
     "typescript": "^4.8.4",
     "vite": "^3.2.3",
     "vite-tsconfig-paths": "3.5.2",
-    "vitest": "^0.25.1"
+    "vitest": "^0.25.1",
+    "husky": "^8.0.0",
+    "lint-staged": "13.0.4"
   },
-  "pre-commit": "lint",
   "license": "MIT",
   "private": true
 }
