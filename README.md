@@ -67,12 +67,15 @@ $ pnpm serve
 - [Eslint](https://eslint.org/docs/latest/)
 - [Prettier](https://prettier.io/docs/en/index.html)
 - [pnpm](https://pnpm.io/motivation)
+- [Husky](https://typicode.github.io/husky/#/)
 
 ## Dependencies
 
 - [React Routes](https://reactrouter.com/en/main/start/tutorial)
 - [vite-tsconfig-path](https://github.com/aleclarson/vite-tsconfig-paths#readme)
 - [testing-library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Conventional Commints](https://www.conventionalcommits.org/en/v1.0.0/#summary)
+- [lint-staged](https://github.com/okonet/lint-staged)
 
 ## Testing info
 
