@@ -1,7 +1,8 @@
 {
   "name": "front-end-template",
   "version": "1.0.0",
-  "description": "Using pnpm-ts-vite-vitest-eslint-prettier-amplify",
+  "author": "Bruno Mogetta",
+  "description": "Using pnpm-ts-vite-vitest-eslint-prettier-husky-amplify",
   "type": "module",
   "repository": {
     "type": "git",
@@ -16,7 +17,8 @@
     "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore",
     "lint:format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
     "lint": "pnpm lint:format && pnpm lint:fix ",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -57,20 +59,8 @@
     "vite": "^3.2.3",
     "vite-tsconfig-paths": "3.5.2",
     "vitest": "^0.25.1",
-    "husky": "8.0.2",
+    "husky": "^8.0.0",
     "lint-staged": "13.0.4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js, jsx, ts, tsx, json, yml, yaml,css, md, html}": [
-      "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
-      "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore",
-      "git add --patch"
-    ]
   },
   "license": "MIT",
   "private": true
