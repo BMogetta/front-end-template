@@ -59,7 +59,10 @@
     "vite-tsconfig-paths": "3.5.2",
     "vitest": "^0.25.1"
   },
-  "pre-commit": "pnpm lint & pnpm test",
+  "pre-commit": [
+    "lint",
+    "build"
+  ],
   "license": "MIT",
   "private": true
 }
