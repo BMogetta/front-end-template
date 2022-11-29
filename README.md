@@ -3,9 +3,9 @@
 <!-- https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge -->
 
 
-[![Test&Build](https://github.com/BMogetta/front-end-template/workflows/test-and-build.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions)
-[![Semgrep](https://github.com/BMogetta/front-end-template/workflows/semgrep.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions/semgrep)
-[![Semgrep](https://github.com/BMogetta/front-end-template/workflows/semgrep.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions/Semgrep)
+[![Github Actions](https://github.com/BMogetta/front-end-template/workflows/test-and-build.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions)
+[![Github Actions](https://github.com/BMogetta/front-end-template/workflows/semgrep.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions/semgrep)
+[![Github Actions](https://github.com/BMogetta/front-end-template/workflows/semgrep.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions/Semgrep)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Build Setup
