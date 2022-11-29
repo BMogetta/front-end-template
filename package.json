@@ -52,17 +52,25 @@
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-testing-library": "^5.9.1",
     "jsdom": "^20.0.2",
-    "pre-commit": "^1.2.2",
     "prettier": "^2.7.1",
     "typescript": "^4.8.4",
     "vite": "^3.2.3",
     "vite-tsconfig-paths": "3.5.2",
-    "vitest": "^0.25.1"
+    "vitest": "^0.25.1",
+    "husky": "8.0.2",
+    "lint-staged": "13.0.4"
   },
-  "pre-commit": [
-    "lint",
-    "build"
-  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js, jsx, ts, tsx, json, yml, yaml,css, md, html}": [
+      "lint",
+      "git add"
+    ]
+  },
   "license": "MIT",
   "private": true
 }
