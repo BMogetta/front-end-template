@@ -1,11 +1,14 @@
 {
   "name": "front-end-template",
+  "description": "Using pnpm-ts-vite-vitest-eslint-prettier-husky-amplify",
   "version": "1.1.0",
-  "author": "Bruno Mogetta <brunomogetta@gmail.com>",
+  "author": {
+    "name": "Bruno Mogetta <brunomogetta@gmail.com>",
+    "url": "https://github.com/BMogetta"
+  },
   "maintainers": [
     "Leandro Patriarca <patriarcaleandro@gmail.com>"
   ],
-  "description": "Using pnpm-ts-vite-vitest-eslint-prettier-husky-amplify",
   "type": "module",
   "repository": {
     "type": "git",
