@@ -20,7 +20,10 @@ jobs:
         uses: "actions/checkout@v3"
 
       - name: "Update package.json"
-        run: ./.github/scripts/change-name.sh "$GITHUB_REPOSITORY" "$GITHUB_REPOSITORY_OWNER"
+        run: ./.github/scripts/change-package.sh "$GITHUB_REPOSITORY" "$GITHUB_REPOSITORY_OWNER"
+
+      - name: "Update CODEOWNERS"
+        run: ./.github/scripts/change-codeowners.sh "$GITHUB_REPOSITORY_OWNER"
 
       - name: "Add change name summary"
         run: |
