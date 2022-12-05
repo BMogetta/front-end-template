@@ -1,4 +1,4 @@
-<!-- BEGIN OF FRONT END TEMPLATE SECURITY.MD V1.0.0 BLOCK -->
+<!-- BEGIN OF FRONT-END-TEMPLATE SECURITY.MD V1.0.0 BLOCK -->
 
 # Security
 
@@ -38,4 +38,4 @@ If we verify a reported security vulnerability, our policy is:
   vulnerability, as well as recommendations for end-users to protect themselves.
   Security advisories will be listed in this repository.
 
-<!-- END OF FRONT END TEMPLATE SECURITY.MD BLOCK -->
+<!-- END OF FRONT-END-TEMPLATE SECURITY.MD BLOCK -->
