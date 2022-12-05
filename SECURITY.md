@@ -36,6 +36,6 @@ If we verify a reported security vulnerability, our policy is:
 
 - A security advisory will be released on the project website detailing the
   vulnerability, as well as recommendations for end-users to protect themselves.
-  Security advisories will be listed at https://rucapenlabs.com/security/advisories.
+  Security advisories will be listed in this repository.
 
 <!-- END OF FRONT END TEMPLATE SECURITY.MD BLOCK -->
