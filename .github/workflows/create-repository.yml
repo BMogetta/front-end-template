@@ -28,6 +28,9 @@ jobs:
       - name: "Update LICENSE.txt"
         run: ./.github/scripts/change-license.sh "$GITHUB_REPOSITORY_OWNER"
 
+      - name: "Update SECURITY.md"
+        run: ./.github/scripts/change-security.sh "$GITHUB_REPOSITORY" "$GITHUB_REPOSITORY_OWNER"
+
       - name: "Add change name summary"
         run: |
           echo "## Commit results" >> $GITHUB_STEP_SUMMARY
