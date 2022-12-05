@@ -4,7 +4,7 @@
 set -euo pipefail
 
 # Define the input vars
-GITHUB_REPOSITORY_OWNER=${2?Error: Please pass username, e.g. BMogetta}
+GITHUB_REPOSITORY_OWNER=${1?Error: Please pass username, e.g. BMogetta}
 
 echo "GITHUB_REPOSITORY_OWNER: $GITHUB_REPOSITORY_OWNER"
 
