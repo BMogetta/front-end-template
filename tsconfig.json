@@ -25,8 +25,7 @@
     "paths": {
       "#setup/*": ["setup/*"],
       "#pages/*": ["pages/*"],
-      "#constants/*": ["constants/*"],
-      "#assets/*": ["assets/*"]
+      "#constants/*": ["constants/*"]
     },
     "types": ["node", "vite/client", "vitest/globals"]
   },
