@@ -13,5 +13,5 @@ echo "GITHUB_REPOSITORY_OWNER: $GITHUB_REPOSITORY_OWNER"
 GH_URL="https://github.com/$GITHUB_REPOSITORY_OWNER"
 EMAIL_LINE="please report it to us at <$GH_URL>. We will work with you to"
 
-sed -i "s/FRONT END TEMPLATE/$GITHUB_REPOSITORY/" LICENSE.txt
-sed -i "8s/.*/$EMAIL_LINE/" LICENSE.txt
+sed -i "s/FRONT END TEMPLATE/$GITHUB_REPOSITORY/" SECURITY.md
+sed -i "8s/.*/$EMAIL_LINE/" SECURITY.md
