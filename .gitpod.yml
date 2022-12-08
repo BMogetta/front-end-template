@@ -3,9 +3,9 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - name: Setup & Build
-    before: npm install -g pnpm
-    init: pnpm install
-    command: npm run dev
+    before: pnpm install
+    init: pnpm build
+    command: pnpm dev
     
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
