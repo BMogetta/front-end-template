@@ -14,6 +14,12 @@ SNYK_TOKEN=yyyyyyyyyyyy
 SEMGREP_APP_TOKEN=zzzzzzzzzz
 ```
 
+## Hooks
+This template uses husky to trigger 3 hooks.
+ * Pre-commit: it'll run `pnpm lint-staged` and lint all staged files cover by any linting rule.
+ * Commit-msg: it'll enforce [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
+ * Pre-push: it'll run `pnpm test` and `pnpm build` to ensure you only push working code.
+
 ## Build Setup
 
 ```bash
