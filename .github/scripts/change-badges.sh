@@ -10,4 +10,4 @@ echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
 
 GH_URL="https://github.com/$GITHUB_REPOSITORY"
 
-sed -i "s|https://github.com/BMogetta/front-end-template|$GH_URL|" README.md
+sed -i "s|https://github.com/BMogetta/front-end-template|$GH_URL|g" README.md
