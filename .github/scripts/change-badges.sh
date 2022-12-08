@@ -5,11 +5,9 @@ set -euo pipefail
 
 # Define the input vars
 GITHUB_REPOSITORY=${1?Error: Please pass username/repo, e.g. BMogetta/front-end-template}
-GITHUB_REPOSITORY_OWNER=${2?Error: Please pass username, e.g. BMogetta}
 
 echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
-echo "GITHUB_REPOSITORY_OWNER: $GITHUB_REPOSITORY_OWNER"
 
-GH_URL="https://github.com/$GITHUB_REPOSITORY_OWNER/$GITHUB_REPOSITORY"
+GH_URL="https://github.com/$GITHUB_REPOSITORY"
 
 sed -i "s|https://github.com/BMogetta/front-end-template|$GH_URL|" README.md
