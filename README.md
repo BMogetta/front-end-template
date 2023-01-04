@@ -72,6 +72,9 @@ $ set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 # build&preview
 $ pnpm build
 $ pnpm serve
+
+# clean node_modules, build folder and coverage
+$ pnpm clean
 ```
 
 # Full documentation links
@@ -88,6 +91,7 @@ $ pnpm serve
 ## Dependencies
 
 - [React Routes](https://reactrouter.com/en/main/start/tutorial)
+- [Jotai](https://jotai.org/docs/introduction)
 - [vite-tsconfig-path](https://github.com/aleclarson/vite-tsconfig-paths#readme)
 - [testing-library](https://testing-library.com/docs/react-testing-library/intro/)
 - [Conventional Commints](https://www.conventionalcommits.org/en/v1.0.0/#summary)
