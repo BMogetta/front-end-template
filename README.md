@@ -5,12 +5,14 @@
 [![Test&Build](https://github.com/BMogetta/front-end-template/actions/workflows/test-and-build.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions/workflows/test-and-build.yml)
 [![Semgrep](https://github.com/BMogetta/front-end-template/actions/workflows/semgrep.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions/workflows/semgrep.yml)
 [![GitGuardian](https://github.com/BMogetta/front-end-template/actions/workflows/gitguardian.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions/workflows/gitguardian.yml)
-[![Snyk](https://github.com/BMogetta/front-end-template/actions/workflows/snyk.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions/workflows/snyk.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+<!--  [![Snyk](https://github.com/BMogetta/front-end-template/actions/workflows/snyk.yml/badge.svg)](https://github.com/BMogetta/front-end-template/actions/workflows/snyk.yml)  -->
 
 ## GHA security checks
-This template uses Semgrep, Snyk and GitGuardian on GitHub Actions. They required API keys to work. If you want to use them create an account with them and store the keys in GH secrets:
+
+This template uses Semgrep, Snyk (additional setup is required when used in an organization)and GitGuardian on GitHub Actions. They required API keys to work. If you want to use them create an account with them and store the keys in GH secrets:
+
 ```
 GITGUARDIAN_API_KEY=xxxxxxxxxx
 SNYK_TOKEN=yyyyyyyyyyyy
@@ -18,10 +20,12 @@ SEMGREP_APP_TOKEN=zzzzzzzzzz
 ```
 
 ## Hooks
+
 This template uses husky to trigger 3 hooks.
- * Pre-commit: it'll run `pnpm lint-staged` and lint all staged files cover by any linting rule.
- * Commit-msg: it'll enforce [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
- * Pre-push: it'll run `pnpm test` and `pnpm build` to ensure you only push working code.
+
+- Pre-commit: it'll run `pnpm lint-staged` and lint all staged files cover by any linting rule.
+- Commit-msg: it'll enforce [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
+- Pre-push: it'll run `pnpm test` and `pnpm build` to ensure you only push working code.
 
 ## Build Setup
 

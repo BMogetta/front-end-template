@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npx pnpm install
+        - npx pnpm install --frozen-lockfile
     build:
       commands:
         - npx pnpm run build

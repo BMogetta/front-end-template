@@ -1,4 +1,5 @@
 # Prevent "Permission denied" Error
+
 Every time a bash script is created, renamed or modified on windows:
 `git update-index --chmod=+x <script_name>.sh`
 then commit and push the change to GitHub.
