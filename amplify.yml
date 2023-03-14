@@ -6,7 +6,7 @@ frontend:
         - npx pnpm install --frozen-lockfile
     build:
       commands:
-        - npx pnpm run build
+        - npx pnpm run build-ci
   artifacts:
     baseDirectory: /dist
     files:

@@ -16,7 +16,7 @@ JQ_OUTPUT=`jq \
   --arg AUTHOR_NAME "$GITHUB_REPOSITORY_OWNER" \
   --arg URL "https://github.com/$GITHUB_REPOSITORY_OWNER" \
   --arg GIT "https://github.com/$GITHUB_REPOSITORY.git" \
-  '.name = $NAME | .description = "" | .author |= ( .name = $AUTHOR_NAME | .url = $URL ) | .maintainers = "" | .version = "0.1.0" | .repository |= ( .type = "git" | .url = $GIT )' \
+  '.name = $NAME | .description = "" | .author |= ( .name = $AUTHOR_NAME | .url = $URL ) | .maintainers = "[]" | .version = "0.1.0" | .repository |= ( .type = "git" | .url = $GIT )' \
   package.json
 `
 

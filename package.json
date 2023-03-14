@@ -19,6 +19,7 @@
     "clean": "rimraf \"{node_modules,dist,coverage}\"",
     "dev": "vite",
     "build": "tsc --project tsconfig.build.json && vite build",
+    "build-ci": "vite build",
     "serve": "vite preview",
     "test": "vitest --run --coverage --passWithNoTests",
     "test:watch": "vitest --passWithNoTests",
