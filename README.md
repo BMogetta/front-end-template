@@ -9,6 +9,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## GHA security checks
+To deploy on amplify you need to declare:
+```
+AWS_ACCESS_KEY_ID=xxxxxxxxxx
+AWS_SECRET_ACCESS_KEY=yyyyyyyyyyyy
+
+```
+
+## GHA security checks
 This template uses Semgrep, Snyk and GitGuardian on GitHub Actions. They required API keys to work. If you want to use them create an account with them and store the keys in GH secrets:
 ```
 GITGUARDIAN_API_KEY=xxxxxxxxxx
